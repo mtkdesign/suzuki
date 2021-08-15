@@ -3,7 +3,7 @@
 /* 共通部分
 --------------------------------------------------------------- */
 html {
-  font-size: 100%;   /* ユーザの設定した文字サイズを正しく表示 */
+  font-size: 100%; /* ユーザの設定した文字サイズを正しく表示 */
 }
 
 body {
@@ -36,7 +36,6 @@ img {
   margin: 0 auto;
   background: #fff;
 }
-
 
 /* HEADER */
 .page-header {
@@ -101,7 +100,7 @@ img {
   left: 0;
   width: 100%;
   height: 1px;
-  content: '';
+  content: "";
   background: #333;
 }
 
@@ -120,7 +119,6 @@ img {
   width: auto;
   cursor: pointer;
 }
-
 
 /* GRID */
 .grid {
@@ -141,7 +139,7 @@ img {
 .address {
   display: flex;
   justify-content: space-between;
-  background: rgba(0, 0, 0, .8);
+  background: rgba(0, 0, 0, 0.8);
   padding: 50px 10% 20px;
   margin-top: 70px;
 }
@@ -152,20 +150,20 @@ footer a {
   line-height: 2;
 }
 
-.address, .text {
+.address,
+.text {
   color: #fff;
   font-size: 0.825rem;
   line-height: 1.5;
 }
 .text {
   width: 45%;
-
 }
 .text p {
   margin-bottom: 8px;
 }
 .caption {
-  font-size: 0.5rem;  
+  font-size: 0.5rem;
 }
 .text h3 {
   font-size: 1.5rem;
@@ -174,7 +172,8 @@ footer a {
 .text h3 span {
   font-size: 0.825rem;
 }
-.address, .text p{
+.address,
+.text p {
   font-size: 0.825rem;
 }
 .shop-image {
@@ -183,7 +182,7 @@ footer a {
 }
 
 footer > div {
-  background: rgba(0, 0, 0, .2);
+  background: rgba(0, 0, 0, 0.2);
   line-height: 47px;
   font-size: 13px;
   text-align: center;
@@ -198,11 +197,11 @@ iframe {
 }
 
 /* SHOP INFO --------------------------------------------------------------------------------------- */
-.title-image, .shop-info {
+.title-image,
+.shop-info {
   width: 100%;
   position: relative;
   margin-bottom: 50px;
-
 }
 
 .shop-info h1 {
@@ -241,7 +240,6 @@ iframe {
 .si-img {
   width: 45%;
 }
-
 
 /* CONTACT--------------------------------------------------------------------------------------- */
 .contact {
@@ -293,10 +291,6 @@ textarea {
   height: 300px;
 }
 
-
-
-
-
 /* MEDIUM SIZE------------------------------------------------------------------------------------ */
 @media (max-width: 1300px) {
   body {
@@ -309,18 +303,16 @@ textarea {
   .home-slide img {
     width: 100%;
   }
-/* CATEGORY */
-.category {
-  grid-template-columns: repeat(2, 1fr);
-  width: 100%;
+  /* CATEGORY */
+  .category {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+  .menu,
+  .img {
+    width: 100%;
+  }
 }
-.menu, .img {
-  width: 100%;
-}
-}
-
-
-
 
 /* MOBILE------------------------------------------------------------------------------------ */
 @media (max-width: 600px) {
@@ -330,144 +322,140 @@ textarea {
   .bg {
     width: 100%;
   }
-/* HEADER */
-.page-header {
-  flex-direction: column;
-  align-items: center;
-  padding: 0 4% 15px;
-}
-.logo {
-  height: 76px;
-  margin-top: 25px;
-}
-.main-nav {
-  margin-top: 20px;
-  font-size: 0.825rem;
-}
+  /* HEADER */
+  .page-header {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 4% 15px;
+  }
+  .logo {
+    height: 76px;
+    margin-top: 25px;
+  }
+  .main-nav {
+    margin-top: 20px;
+    font-size: 0.825rem;
+  }
 
-.main-nav li {
-  margin-left: 13px;
-  margin-right: 13px;
-}
+  .main-nav li {
+    margin-left: 13px;
+    margin-right: 13px;
+  }
 
-/* SLIDE */
-.home-slide img {
-  width: 100%;
-}
+  /* SLIDE */
+  .home-slide img {
+    width: 100%;
+  }
 
-.home-slide h1 {
-  width: 200px;
-  height: 60px;
-  top: calc(50% - 40px);
-  left: calc(50% - 100px);
-  font-size: 0.825rem;
-}
+  .home-slide h1 {
+    width: 200px;
+    height: 60px;
+    top: calc(50% - 40px);
+    left: calc(50% - 100px);
+    font-size: 0.825rem;
+  }
 
-/* TITLE */
-.title {
-  margin: 20px auto 80px;
-}
+  /* TITLE */
+  .title {
+    margin: 20px auto 70px;
+  }
 
-.title h1 {
-  font-size: 1.25rem;
-  width: 300px;
-  left: calc(50% - 150px);
-}
+  .title h1 {
+    font-size: 1.25rem;
+    width: 300px;
+    left: calc(50% - 150px);
+  }
 
-/* CATEGORY */
-.category {
-  padding: 0 4%;
-  display: block;
-}
+  /* CATEGORY */
+  .category {
+    padding: 0 4%;
+    display: block;
+  }
 
-.category img{
-  padding-bottom: 10px;
-  display: block;
-  width: 100%;
-}
+  .category img {
+    padding-bottom: 10px;
+    display: block;
+    width: 100%;
+  }
 
-/* GRID */
-.grid {
-  padding: 0 10%;
-  display: block;
-}
-.item {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-.price {
-  padding-bottom: 20px;
-}
+  /* GRID */
+  .grid {
+    padding: 0 10%;
+    display: block;
+  }
+  .item {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  .price {
+    padding-bottom: 20px;
+  }
 
-/* FOOTER */
-.address {
-  flex-direction: column;
-  padding: 36px 4% 20px;
-  margin-top: 20px;
-}
+  /* FOOTER */
+  .address {
+    flex-direction: column;
+    padding: 36px 4% 20px;
+    margin-top: 20px;
+  }
 
-.text {
-  width: 100%;
-}
+  .text {
+    width: 100%;
+  }
 
-.shop-image {
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
+  .shop-image {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
 
-.location {
-  width: 100%;
-}
+  .location {
+    width: 100%;
+  }
 
-iframe {
-  width: 100%;
-}
+  iframe {
+    width: 100%;
+  }
 
-/* SHOP-INFO  */
-.title-image, .shop-info {
-  margin-bottom: 20px;
-}
+  /* SHOP-INFO  */
+  .title-image,
+  .shop-info {
+    margin-bottom: 20px;
+  }
 
-.shop-info h1 {
-  width: 200px;
-  height: 20px;
-  color: #fff;
-  top: calc(50% - 17px);
-  left: 36px;
-  font-size: 1rem;
-  text-align: left;
-}
+  .shop-info h1 {
+    width: 200px;
+    height: 20px;
+    color: #fff;
+    top: calc(50% - 17px);
+    left: 36px;
+    font-size: 1rem;
+    text-align: left;
+  }
 
-.si-container {
-  flex-direction: column;
-  margin-bottom: 30px;
-  padding: 0 4%;
+  .si-container {
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding: 0 4%;
+  }
+  .si-container:nth-child(even) {
+    flex-direction: column;
+  }
 
-}
-.si-container:nth-child(even) {
-  flex-direction: column;
-}
-
-.shop-info-text {
-  width: 100%;
-}
-.shop-info-text p {
-  font-size: 0.875rem;
-  line-height: 1.5;
-  margin-bottom: 10px;
-}
-.si-title {
-  color: #707070;
-  line-height: 1.7rem;
-  margin-bottom: 10px;
-  font-size: 1.125rem;
-}
-.si-img {
-  width: 100%;
-}
-
-
-
-
+  .shop-info-text {
+    width: 100%;
+  }
+  .shop-info-text p {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  .si-title {
+    color: #707070;
+    line-height: 1.7rem;
+    margin-bottom: 10px;
+    font-size: 1.125rem;
+  }
+  .si-img {
+    width: 100%;
+  }
 }
